@@ -1,0 +1,32 @@
+{
+  "name": "cryptostar",
+  "version": "3.0.0",
+  "description": "CryptoStart Dapp for Udacity ND13009",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.4.0",
+    "truffle": "^5.1.4",
+    "webpack-dev-server": "^3.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Heath Robertson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heathdrobertson/crypotstar.git"
+  },
+  "keywords": [
+    "CryptStar",
+    "Dapp"
+  ],
+  "bugs": {
+    "url": "https://github.com/heathdrobertson/crypotstar/issues"
+  },
+  "homepage": "https://github.com/heathdrobertson/crypotstar#readme"
+}

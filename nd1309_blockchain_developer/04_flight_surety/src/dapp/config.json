@@ -1,0 +1,12 @@
+{
+	"localhost": {
+		"url": "http://0.0.0.0:8545",
+		"dataAddress": "0x609e810D727D955d3611eFC072e0dDf4b34f805b",
+		"appAddress": "0xB6CFDc3e8C5986650f748BBBB2Af88842D75f70f"
+	},
+	"rinkeby": {
+		"url": "https://rinkeby.infura.io/ws/v3/db86ef922775473f90a9ec0d53b56346",
+		"dataAddress": "0x609e810D727D955d3611eFC072e0dDf4b34f805b",
+		"appAddress": "0xB6CFDc3e8C5986650f748BBBB2Af88842D75f70f"
+	}
+}

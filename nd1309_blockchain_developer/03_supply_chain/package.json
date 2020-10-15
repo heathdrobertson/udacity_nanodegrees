@@ -1,0 +1,33 @@
+{
+  "name": "coffeechain",
+  "version": "1.0.0",
+  "description": "__Project 03 of Udacity's Blockchain Developer Nanodegree ND1309 - Ethereum Dapp for Tracking Items through Supply Chain__",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "pk <pkrasam@gmail.com> (https://ipfs.infura.io/ipfs/QmSXiR9Khm3yo1J67nUopvVBxFJ8YGN2fUGZ34Etr3m92x/)",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "2.4.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.4.0",
+    "truffle": "^5.1.8",
+    "webpack": "^4.41.5",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heathdrobertson/supply_chain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heathdrobertson/supply_chain/issues"
+  },
+  "homepage": "https://github.com/heathdrobertson/supply_chain#readme"
+}

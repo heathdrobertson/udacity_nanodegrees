@@ -1,0 +1,22 @@
+{
+  "name": "solidity_monkey",
+  "version": "1.0.0",
+  "description": "A project to work through Udacity ND1309",
+  "main": "truffle-config.js",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.4.0",
+    "truffle": "^5.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "solidty",
+    "udacity",
+    "nd1309",
+    "token"
+  ],
+  "author": "Heath Robertson",
+  "license": "MIT"
+}

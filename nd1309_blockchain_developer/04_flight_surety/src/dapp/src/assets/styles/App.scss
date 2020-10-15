@@ -1,0 +1,29 @@
+// custom.scss
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+@import '../../../node_modules/bootstrap/scss/variables';
+@import '../../../node_modules/bootstrap/scss/mixins';
+
+
+body {
+    background-image: url('../images/flight.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#app{
+    opacity: 0.9;
+    padding: 40px 0px;
+}
+
+.jumbotron {
+    background-color: rgba($gray-300, 0.7);
+    color: #414d96;
+} 
+.logo {
+   max-width: 200px; 
+}
+
+form > button {
+    @extend .btn, .btn-sm;
+    @extend .btn-primary;
+}

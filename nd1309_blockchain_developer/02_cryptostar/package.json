@@ -1,0 +1,38 @@
+{
+    "name": "cryptostar",
+    "version": "3.0.0",
+    "description": "An Ethereum Rinkerby Testnet Dapp",
+    "main": "truffle-config.js",
+    "directories": {
+        "test": "test"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": "^2.4.0",
+        "openzeppelin-solidity": "^2.1.2",
+        "truffle": "^5.1.8",
+        "truffle-hdwallet-provider": "^1.0.2",
+        "webpack": "^4.41.3",
+        "webpack-dev-server": "^3.10.1"
+    },
+    "dependencies": {
+        "serialize-javascript": ">=2.1.1"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/heathdrobertson/crypotstar.git"
+    },
+    "keywords": [
+        "ethereum",
+        "rinkerby",
+        "dapp"
+    ],
+    "author": "Heath Robertson",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/heathdrobertson/crypotstar.git/issues"
+    },
+    "homepage": "https://github.com/heathdrobertson/crypotstar.git#readme"
+}

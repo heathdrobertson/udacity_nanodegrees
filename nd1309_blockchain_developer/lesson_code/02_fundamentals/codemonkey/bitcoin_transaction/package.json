@@ -1,0 +1,20 @@
+{
+  "name": "btc_play",
+  "version": "1.0.0",
+  "description": "A practice app for playing with and interacting with a bitcoin testnet.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bitcoin",
+    "javascript"
+  ],
+  "author": "Heath Robertson",
+  "license": "MIT",
+  "dependencies": {
+    "bitcoinjs-lib": "^5.1.6",
+    "bitcoinjs-message": "^2.1.0",
+    "crypto-js": "^3.1.9-1"
+  }
+}

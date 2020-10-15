@@ -1,0 +1,9 @@
+{
+	"url": "wss://rinkeby.infura.io/ws/v3/119d7d4332b1444494ca77e3ce61c903",
+	"local": "http://0.0.0.0:8545",
+	"key": "729c81e414384840b557d3d527c7ea3ef",
+    "mnemonic": "chief engage innocent treat stereo angle spread angry stay rule spoon water",
+    "owner_address": "0x55466Fc7CD33E6791d7E2246fE7496783cc6ED4f",
+    "nft_contract_address": "0xe4c5ED051746275Fd099276866CEDB292AeeEB78",
+    "network": "rinkeby"
+}

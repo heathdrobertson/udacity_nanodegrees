@@ -1,0 +1,100 @@
+import React, { useCallback, useMemo, useState, useEffect } from 'react'
+import { drizzleReactHooks } from 'drizzle-react'
+import { Card, Badge, Button, ListGroup, ListGroupItem } from 'react-bootstrap'
+
+import Dashboard from './Dashboard.js'
+
+const { useDrizzle, useDrizzleState } = drizzleReactHooks
+
+const ContractActivation = (props) => {
+        // From here I get contract address and state change
+        // setOperatingStatus(bool mode)
+        // isOperational()
+        const handleOnClick = (event) => {
+                const value = event.target.value
+                console.log(value)
+        }
+
+        return (
+                <ListGroupItem action variant="danger" value={false} onClick={ handleOnClick }> Deactivate Contract </ListGroupItem>
+        );
+}
+const Account = (props) => {
+        // On laod:
+        // Set App contract authorization on Data Contract.
+        // Display:
+        // Account & Ballance
+        // Contract state; Active Inactive
+        // Admin Dashboard:
+        // If Account is Admin
+        // Activate/Deactivate Contract Button
+        const { drizzle, useCacheCall, useCacheEvents, useCacheSend } = drizzleReactHooks.useDrizzle();
+        const drizzleState = drizzleReactHooks.useDrizzleState(drizzleState => ({
+                account: drizzleState.accounts[0],
+                balance: drizzleState.accountBalances[drizzleState.accounts[0]],
+        }))
+
+        const contract = drizzle.contracts.FlightSuretyApp.address
+        const balance = drizzle.web3.utils.fromWei( drizzleState.balance)
+
+        const isOperational = useCacheCall('FlightSuretyApp', 'isOperational')
+        const isOwner = useCacheCall('FlightSuretyApp', 'isContractOwner')
+        const appContractStatus = useCacheCall( 'FlightSuretyData', 'getCallerAuthorizationStatus', contract)
+
+        const handleOnClick = (event) => {
+                const value = event.target.value
+                useCacheCall('FlightSuretyData', 'setCallerAuthorizationStatus', drizzle.contracts.FlightSuretyApp.address, event.target.value)
+
+        }
+
+        // console.log(TXObjects.map(t => t.status));
+        return (
+                <>
+                <Card bg="primary" text="white">
+                <Card.Img variant="top" src="http://bit.ly/37uRKir" />
+
+                <Card.Body>
+                <ListGroup className="">
+                <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
+                <ListGroupItem>Vestibulum at eros</ListGroupItem>
+                </ListGroup>
+                {isOwner ? (
+                        <>
+                        <Card.Title>Dashboard</Card.Title>
+                        <Card.Subtitle>Contract Owner</Card.Subtitle>
+                        {isOperational ? (
+                                <>
+                                <ListGroupItem variant="success">Contract is Active</ListGroupItem>
+                                <ContractActivation></ContractActivation>
+                                </>
+                        ) : (
+                                <>
+                                <ListGroupItem variant="success">Contract is Active</ListGroupItem>
+                                <ContractActivation></ContractActivation>
+                                </>
+                        )}
+                        </>
+                ) : (
+                        <>
+                        <Card.Title>Welcome</Card.Title>
+                        </>
+                )}
+                </Card.Body>
+
+                <Card.Body>
+                <Card.Text className="my-3">
+                <span><b>Address:</b> <br />{drizzleState.account}</span>
+                <br />
+                <span><b>Balance:</b> <br />{ balance } ETH</span>
+                </Card.Text>
+                </Card.Body>
+
+                <Card.Footer>
+                </Card.Footer>
+
+                </Card>
+                </>
+        );
+}
+
+export default Account;

@@ -1,0 +1,33 @@
+{
+  "name": "blockchain-day1",
+  "version": "1.0.0",
+  "description": "To install, download or clone the repo, then move to the required exercise branch with either:",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techbubble/blockchain-day1.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "truffle test test/ExerciseC6D.js"
+  },
+  "author": "Nik Kalyani <nik@kalyani.com>",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^2.4.0",
+    "@truffle/hdwallet-provider": "^1.0.29",
+    "bignumber": "^1.1.0",
+    "truffle": "^4.1.14"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/techbubble/blockchain-day1/issues"
+  },
+  "homepage": "https://github.com/techbubble/blockchain-day1#readme",
+  "main": "truffle.js",
+  "keywords": [
+    "lesson5",
+    "exercisesD"
+  ]
+}

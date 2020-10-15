@@ -1,0 +1,2613 @@
+{
+  "contractName": "StructsContract",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "name",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getName",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint16",
+          "name": "",
+          "type": "uint16"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_lastName",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "uint8",
+          "name": "_value",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint16",
+          "name": "_age",
+          "type": "uint16"
+        }
+      ],
+      "name": "addName",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"_lastName\",\"type\":\"bytes32\"},{\"internalType\":\"uint8\",\"name\":\"_value\",\"type\":\"uint8\"},{\"internalType\":\"uint16\",\"name\":\"_age\",\"type\":\"uint16\"}],\"name\":\"addName\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"name\",\"type\":\"bytes32\"}],\"name\":\"getName\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"},{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"},{\"internalType\":\"uint16\",\"name\":\"\",\"type\":\"uint16\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/app/contracts/StructsContract.sol\":\"StructsContract\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/app/contracts/StructsContract.sol\":{\"keccak256\":\"0x3da41c67f3a673b1d43b2d12b1ce9613d51389bd84bcf8fe6e99c3b67e790029\",\"urls\":[\"bzz-raw://35aa8b5a8e39750cb9266756d9aed41141f13ca9b74881b43212238b12d0cfaa\",\"dweb:/ipfs/QmXMRru1Q8aRvc2Qm8ZbJZDwZeaxN9mqLFx5mfwnbdXRAD\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610306806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806354b8d5e31461003b5780636af75d2a14610099575b600080fd5b6100676004803603602081101561005157600080fd5b81019080803590602001909291905050506100fa565b604051808481526020018360ff1660ff1681526020018261ffff1661ffff168152602001935050505060405180910390f35b6100e0600480360360608110156100af57600080fd5b8101908080359060200190929190803560ff169060200190929190803561ffff1690602001909291905050506101e1565b604051808215151515815260200191505060405180910390f35b600080600080600090505b6000805490508160ff1610156101d85760008160ff168154811061012557fe5b9060005260206000209060020201600001548514156101cb5760008160ff168154811061014e57fe5b90600052602060002090600202016000015460008260ff168154811061017057fe5b906000526020600020906002020160010160009054906101000a900460ff1660008360ff168154811061019f57fe5b906000526020600020906002020160010160019054906101000a900461ffff16935093509350506101da565b8080600101915050610105565b505b9193909250565b60006101eb6102a6565b8481600001818152505083816020019060ff16908160ff168152505082816040019061ffff16908161ffff1681525050600081908060018154018082558091505090600182039060005260206000209060020201600090919290919091506000820151816000015560208201518160010160006101000a81548160ff021916908360ff16021790555060408201518160010160016101000a81548161ffff021916908361ffff16021790555050505060019150509392505050565b604051806060016040528060008019168152602001600060ff168152602001600061ffff168152509056fea265627a7a7231582004515ffe8f1deedfb8f8d54b5d354850ae0af18fec1835bd32b393f2322374c664736f6c634300050c0032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c806354b8d5e31461003b5780636af75d2a14610099575b600080fd5b6100676004803603602081101561005157600080fd5b81019080803590602001909291905050506100fa565b604051808481526020018360ff1660ff1681526020018261ffff1661ffff168152602001935050505060405180910390f35b6100e0600480360360608110156100af57600080fd5b8101908080359060200190929190803560ff169060200190929190803561ffff1690602001909291905050506101e1565b604051808215151515815260200191505060405180910390f35b600080600080600090505b6000805490508160ff1610156101d85760008160ff168154811061012557fe5b9060005260206000209060020201600001548514156101cb5760008160ff168154811061014e57fe5b90600052602060002090600202016000015460008260ff168154811061017057fe5b906000526020600020906002020160010160009054906101000a900460ff1660008360ff168154811061019f57fe5b906000526020600020906002020160010160019054906101000a900461ffff16935093509350506101da565b8080600101915050610105565b505b9193909250565b60006101eb6102a6565b8481600001818152505083816020019060ff16908160ff168152505082816040019061ffff16908161ffff1681525050600081908060018154018082558091505090600182039060005260206000209060020201600090919290919091506000820151816000015560208201518160010160006101000a81548160ff021916908360ff16021790555060408201518160010160016101000a81548161ffff021916908361ffff16021790555050505060019150509392505050565b604051806060016040528060008019168152602001600060ff168152602001600061ffff168152509056fea265627a7a7231582004515ffe8f1deedfb8f8d54b5d354850ae0af18fec1835bd32b393f2322374c664736f6c634300050c0032",
+  "sourceMap": "27:1246:12:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:1246:12;;;;;;;",
+  "deployedSourceMap": "27:1246:12:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:1246:12;;;;;;;;;;;;;;;;;;;;;;;;374:325;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;374:325:12;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;809:462;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;809:462:12;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;374:325;426:7;435:5;442:6;492:7;502:1;492:11;;488:205;509:8;:15;;;;505:1;:19;;;488:205;;;555:8;564:1;555:11;;;;;;;;;;;;;;;;;;;;:20;;;547:4;:28;544:139;;;603:8;612:1;603:11;;;;;;;;;;;;;;;;;;;;:20;;;630:8;639:1;630:11;;;;;;;;;;;;;;;;;;;;:19;;;;;;;;;;;;652:8;661:1;652:11;;;;;;;;;;;;;;;;;;;;:15;;;;;;;;;;;;595:73;;;;;;;;;544:139;526:3;;;;;;;488:205;;;;374:325;;;;;;:::o;809:462::-;888:4;956:23;;:::i;:::-;1071:9;1050;:18;;:30;;;;;1110:6;1090:9;:17;;:26;;;;;;;;;;;1142:4;1126:9;:13;;:20;;;;;;;;;;;1219:8;1233:9;1219:24;;39:1:-1;33:3;27:10;23:18;57:10;52:3;45:23;79:10;72:17;;0:93;1219:24:12;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1260:4;1253:11;;;809:462;;;;;:::o;27:1246::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity >=0.4.24;\n\ncontract StructsContract {\n\n    // Family\n    struct Family {\n        bytes32 lastName;\n        uint8 houseNo;\n        uint16 age;\n    }\n\n    // Creating an array of type family..which is a struct\n    Family[] myFamily;\n\n    // Getting a lastName, and returning complete\n    // family details\n    // We cannot compare 2 strings in solidity...\n    function getName(bytes32 name) public view returns (bytes32, uint8, uint16) {\n        // Search the array\n        for(uint8 i = 0; i < myFamily.length; i++){\n            if(name == myFamily[i].lastName) {\n                return (myFamily[i].lastName,uint8(myFamily[i].houseNo), myFamily[i].age);\n            }\n        }\n    }\n\n    // Structs Cannot be passed as argument so we are passing all elements/attributes of struct as args\n    function addName(bytes32 _lastName, uint8 _value, uint16 _age) public returns (bool) {\n        // Declare the struct variable in memory...\n        Family memory newFamily;\n        //  use the . notation to access members of a struct\n        newFamily.lastName = _lastName;\n        newFamily.houseNo = _value;\n        newFamily.age = _age;\n        // Push the newFamily struct...into our myFamily array\n        myFamily.push(newFamily);\n        return true;\n    }\n}",
+  "sourcePath": "/app/contracts/StructsContract.sol",
+  "ast": {
+    "absolutePath": "/app/contracts/StructsContract.sol",
+    "exportedSymbols": {
+      "StructsContract": [
+        953
+      ]
+    },
+    "id": 954,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 852,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:25:12"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 953,
+        "linearizedBaseContracts": [
+          953
+        ],
+        "name": "StructsContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "StructsContract.Family",
+            "id": 859,
+            "members": [
+              {
+                "constant": false,
+                "id": 854,
+                "name": "lastName",
+                "nodeType": "VariableDeclaration",
+                "scope": 859,
+                "src": "97:16:12",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bytes32",
+                  "typeString": "bytes32"
+                },
+                "typeName": {
+                  "id": 853,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "97:7:12",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 856,
+                "name": "houseNo",
+                "nodeType": "VariableDeclaration",
+                "scope": 859,
+                "src": "123:13:12",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                },
+                "typeName": {
+                  "id": 855,
+                  "name": "uint8",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "123:5:12",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 858,
+                "name": "age",
+                "nodeType": "VariableDeclaration",
+                "scope": 859,
+                "src": "146:10:12",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint16",
+                  "typeString": "uint16"
+                },
+                "typeName": {
+                  "id": 857,
+                  "name": "uint16",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "146:6:12",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint16",
+                    "typeString": "uint16"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Family",
+            "nodeType": "StructDefinition",
+            "scope": 953,
+            "src": "73:90:12",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 862,
+            "name": "myFamily",
+            "nodeType": "VariableDeclaration",
+            "scope": 953,
+            "src": "228:17:12",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage",
+              "typeString": "struct StructsContract.Family[]"
+            },
+            "typeName": {
+              "baseType": {
+                "contractScope": null,
+                "id": 860,
+                "name": "Family",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 859,
+                "src": "228:6:12",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Family_$859_storage_ptr",
+                  "typeString": "struct StructsContract.Family"
+                }
+              },
+              "id": 861,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "228:8:12",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage_ptr",
+                "typeString": "struct StructsContract.Family[]"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 910,
+              "nodeType": "Block",
+              "src": "450:249:12",
+              "statements": [
+                {
+                  "body": {
+                    "id": 908,
+                    "nodeType": "Block",
+                    "src": "530:163:12",
+                    "statements": [
+                      {
+                        "condition": {
+                          "argumentTypes": null,
+                          "commonType": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          },
+                          "id": 889,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "argumentTypes": null,
+                            "id": 884,
+                            "name": "name",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 864,
+                            "src": "547:4:12",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bytes32",
+                              "typeString": "bytes32"
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "==",
+                          "rightExpression": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "baseExpression": {
+                                "argumentTypes": null,
+                                "id": 885,
+                                "name": "myFamily",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 862,
+                                "src": "555:8:12",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage",
+                                  "typeString": "struct StructsContract.Family storage ref[] storage ref"
+                                }
+                              },
+                              "id": 887,
+                              "indexExpression": {
+                                "argumentTypes": null,
+                                "id": 886,
+                                "name": "i",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 874,
+                                "src": "564:1:12",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint8",
+                                  "typeString": "uint8"
+                                }
+                              },
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "nodeType": "IndexAccess",
+                              "src": "555:11:12",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_Family_$859_storage",
+                                "typeString": "struct StructsContract.Family storage ref"
+                              }
+                            },
+                            "id": 888,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "lastName",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 854,
+                            "src": "555:20:12",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bytes32",
+                              "typeString": "bytes32"
+                            }
+                          },
+                          "src": "547:28:12",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          }
+                        },
+                        "falseBody": null,
+                        "id": 907,
+                        "nodeType": "IfStatement",
+                        "src": "544:139:12",
+                        "trueBody": {
+                          "id": 906,
+                          "nodeType": "Block",
+                          "src": "577:106:12",
+                          "statements": [
+                            {
+                              "expression": {
+                                "argumentTypes": null,
+                                "components": [
+                                  {
+                                    "argumentTypes": null,
+                                    "expression": {
+                                      "argumentTypes": null,
+                                      "baseExpression": {
+                                        "argumentTypes": null,
+                                        "id": 890,
+                                        "name": "myFamily",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 862,
+                                        "src": "603:8:12",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage",
+                                          "typeString": "struct StructsContract.Family storage ref[] storage ref"
+                                        }
+                                      },
+                                      "id": 892,
+                                      "indexExpression": {
+                                        "argumentTypes": null,
+                                        "id": 891,
+                                        "name": "i",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 874,
+                                        "src": "612:1:12",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_uint8",
+                                          "typeString": "uint8"
+                                        }
+                                      },
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "nodeType": "IndexAccess",
+                                      "src": "603:11:12",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_struct$_Family_$859_storage",
+                                        "typeString": "struct StructsContract.Family storage ref"
+                                      }
+                                    },
+                                    "id": 893,
+                                    "isConstant": false,
+                                    "isLValue": true,
+                                    "isPure": false,
+                                    "lValueRequested": false,
+                                    "memberName": "lastName",
+                                    "nodeType": "MemberAccess",
+                                    "referencedDeclaration": 854,
+                                    "src": "603:20:12",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_bytes32",
+                                      "typeString": "bytes32"
+                                    }
+                                  },
+                                  {
+                                    "argumentTypes": null,
+                                    "arguments": [
+                                      {
+                                        "argumentTypes": null,
+                                        "expression": {
+                                          "argumentTypes": null,
+                                          "baseExpression": {
+                                            "argumentTypes": null,
+                                            "id": 895,
+                                            "name": "myFamily",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 862,
+                                            "src": "630:8:12",
+                                            "typeDescriptions": {
+                                              "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage",
+                                              "typeString": "struct StructsContract.Family storage ref[] storage ref"
+                                            }
+                                          },
+                                          "id": 897,
+                                          "indexExpression": {
+                                            "argumentTypes": null,
+                                            "id": 896,
+                                            "name": "i",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 874,
+                                            "src": "639:1:12",
+                                            "typeDescriptions": {
+                                              "typeIdentifier": "t_uint8",
+                                              "typeString": "uint8"
+                                            }
+                                          },
+                                          "isConstant": false,
+                                          "isLValue": true,
+                                          "isPure": false,
+                                          "lValueRequested": false,
+                                          "nodeType": "IndexAccess",
+                                          "src": "630:11:12",
+                                          "typeDescriptions": {
+                                            "typeIdentifier": "t_struct$_Family_$859_storage",
+                                            "typeString": "struct StructsContract.Family storage ref"
+                                          }
+                                        },
+                                        "id": 898,
+                                        "isConstant": false,
+                                        "isLValue": true,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "memberName": "houseNo",
+                                        "nodeType": "MemberAccess",
+                                        "referencedDeclaration": 856,
+                                        "src": "630:19:12",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_uint8",
+                                          "typeString": "uint8"
+                                        }
+                                      }
+                                    ],
+                                    "expression": {
+                                      "argumentTypes": [
+                                        {
+                                          "typeIdentifier": "t_uint8",
+                                          "typeString": "uint8"
+                                        }
+                                      ],
+                                      "id": 894,
+                                      "isConstant": false,
+                                      "isLValue": false,
+                                      "isPure": true,
+                                      "lValueRequested": false,
+                                      "nodeType": "ElementaryTypeNameExpression",
+                                      "src": "624:5:12",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_type$_t_uint8_$",
+                                        "typeString": "type(uint8)"
+                                      },
+                                      "typeName": "uint8"
+                                    },
+                                    "id": 899,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": false,
+                                    "kind": "typeConversion",
+                                    "lValueRequested": false,
+                                    "names": [],
+                                    "nodeType": "FunctionCall",
+                                    "src": "624:26:12",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint8",
+                                      "typeString": "uint8"
+                                    }
+                                  },
+                                  {
+                                    "argumentTypes": null,
+                                    "expression": {
+                                      "argumentTypes": null,
+                                      "baseExpression": {
+                                        "argumentTypes": null,
+                                        "id": 900,
+                                        "name": "myFamily",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 862,
+                                        "src": "652:8:12",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage",
+                                          "typeString": "struct StructsContract.Family storage ref[] storage ref"
+                                        }
+                                      },
+                                      "id": 902,
+                                      "indexExpression": {
+                                        "argumentTypes": null,
+                                        "id": 901,
+                                        "name": "i",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 874,
+                                        "src": "661:1:12",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_uint8",
+                                          "typeString": "uint8"
+                                        }
+                                      },
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "nodeType": "IndexAccess",
+                                      "src": "652:11:12",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_struct$_Family_$859_storage",
+                                        "typeString": "struct StructsContract.Family storage ref"
+                                      }
+                                    },
+                                    "id": 903,
+                                    "isConstant": false,
+                                    "isLValue": true,
+                                    "isPure": false,
+                                    "lValueRequested": false,
+                                    "memberName": "age",
+                                    "nodeType": "MemberAccess",
+                                    "referencedDeclaration": 858,
+                                    "src": "652:15:12",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint16",
+                                      "typeString": "uint16"
+                                    }
+                                  }
+                                ],
+                                "id": 904,
+                                "isConstant": false,
+                                "isInlineArray": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "nodeType": "TupleExpression",
+                                "src": "602:66:12",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_tuple$_t_bytes32_$_t_uint8_$_t_uint16_$",
+                                  "typeString": "tuple(bytes32,uint8,uint16)"
+                                }
+                              },
+                              "functionReturnParameters": 872,
+                              "id": 905,
+                              "nodeType": "Return",
+                              "src": "595:73:12"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 880,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 877,
+                      "name": "i",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 874,
+                      "src": "505:1:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "<",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 878,
+                        "name": "myFamily",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 862,
+                        "src": "509:8:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage",
+                          "typeString": "struct StructsContract.Family storage ref[] storage ref"
+                        }
+                      },
+                      "id": 879,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "length",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "509:15:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "505:19:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 909,
+                  "initializationExpression": {
+                    "assignments": [
+                      874
+                    ],
+                    "declarations": [
+                      {
+                        "constant": false,
+                        "id": 874,
+                        "name": "i",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 909,
+                        "src": "492:7:12",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint8",
+                          "typeString": "uint8"
+                        },
+                        "typeName": {
+                          "id": 873,
+                          "name": "uint8",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "492:5:12",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint8",
+                            "typeString": "uint8"
+                          }
+                        },
+                        "value": null,
+                        "visibility": "internal"
+                      }
+                    ],
+                    "id": 876,
+                    "initialValue": {
+                      "argumentTypes": null,
+                      "hexValue": "30",
+                      "id": 875,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "502:1:12",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_0_by_1",
+                        "typeString": "int_const 0"
+                      },
+                      "value": "0"
+                    },
+                    "nodeType": "VariableDeclarationStatement",
+                    "src": "492:11:12"
+                  },
+                  "loopExpression": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "id": 882,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "UnaryOperation",
+                      "operator": "++",
+                      "prefix": false,
+                      "src": "526:3:12",
+                      "subExpression": {
+                        "argumentTypes": null,
+                        "id": 881,
+                        "name": "i",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 874,
+                        "src": "526:1:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint8",
+                          "typeString": "uint8"
+                        }
+                      },
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "id": 883,
+                    "nodeType": "ExpressionStatement",
+                    "src": "526:3:12"
+                  },
+                  "nodeType": "ForStatement",
+                  "src": "488:205:12"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 911,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getName",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 865,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 864,
+                  "name": "name",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 911,
+                  "src": "391:12:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 863,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "391:7:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "390:14:12"
+            },
+            "returnParameters": {
+              "id": 872,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 867,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 911,
+                  "src": "426:7:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 866,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "426:7:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 869,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 911,
+                  "src": "435:5:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 868,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "435:5:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 871,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 911,
+                  "src": "442:6:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint16",
+                    "typeString": "uint16"
+                  },
+                  "typeName": {
+                    "id": 870,
+                    "name": "uint16",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "442:6:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint16",
+                      "typeString": "uint16"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "425:24:12"
+            },
+            "scope": 953,
+            "src": "374:325:12",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 951,
+              "nodeType": "Block",
+              "src": "894:377:12",
+              "statements": [
+                {
+                  "assignments": [
+                    923
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 923,
+                      "name": "newFamily",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 951,
+                      "src": "956:23:12",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Family_$859_memory_ptr",
+                        "typeString": "struct StructsContract.Family"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 922,
+                        "name": "Family",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 859,
+                        "src": "956:6:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Family_$859_storage_ptr",
+                          "typeString": "struct StructsContract.Family"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 924,
+                  "initialValue": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "956:23:12"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 929,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 925,
+                        "name": "newFamily",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 923,
+                        "src": "1050:9:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Family_$859_memory_ptr",
+                          "typeString": "struct StructsContract.Family memory"
+                        }
+                      },
+                      "id": 927,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "lastName",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 854,
+                      "src": "1050:18:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 928,
+                      "name": "_lastName",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 913,
+                      "src": "1071:9:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      }
+                    },
+                    "src": "1050:30:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "id": 930,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1050:30:12"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 935,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 931,
+                        "name": "newFamily",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 923,
+                        "src": "1090:9:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Family_$859_memory_ptr",
+                          "typeString": "struct StructsContract.Family memory"
+                        }
+                      },
+                      "id": 933,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "houseNo",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 856,
+                      "src": "1090:17:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 934,
+                      "name": "_value",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 915,
+                      "src": "1110:6:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "1090:26:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "id": 936,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1090:26:12"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 941,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 937,
+                        "name": "newFamily",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 923,
+                        "src": "1126:9:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Family_$859_memory_ptr",
+                          "typeString": "struct StructsContract.Family memory"
+                        }
+                      },
+                      "id": 939,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "age",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 858,
+                      "src": "1126:13:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint16",
+                        "typeString": "uint16"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 940,
+                      "name": "_age",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 917,
+                      "src": "1142:4:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint16",
+                        "typeString": "uint16"
+                      }
+                    },
+                    "src": "1126:20:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint16",
+                      "typeString": "uint16"
+                    }
+                  },
+                  "id": 942,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1126:20:12"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 946,
+                        "name": "newFamily",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 923,
+                        "src": "1233:9:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Family_$859_memory_ptr",
+                          "typeString": "struct StructsContract.Family memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_struct$_Family_$859_memory_ptr",
+                          "typeString": "struct StructsContract.Family memory"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 943,
+                        "name": "myFamily",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 862,
+                        "src": "1219:8:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage",
+                          "typeString": "struct StructsContract.Family storage ref[] storage ref"
+                        }
+                      },
+                      "id": 945,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1219:13:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_struct$_Family_$859_storage_$returns$_t_uint256_$",
+                        "typeString": "function (struct StructsContract.Family storage ref) returns (uint256)"
+                      }
+                    },
+                    "id": 947,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1219:24:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 948,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1219:24:12"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "74727565",
+                    "id": 949,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "bool",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "1260:4:12",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    },
+                    "value": "true"
+                  },
+                  "functionReturnParameters": 921,
+                  "id": 950,
+                  "nodeType": "Return",
+                  "src": "1253:11:12"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 952,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "addName",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 918,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 913,
+                  "name": "_lastName",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 952,
+                  "src": "826:17:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 912,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "826:7:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 915,
+                  "name": "_value",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 952,
+                  "src": "845:12:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 914,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "845:5:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 917,
+                  "name": "_age",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 952,
+                  "src": "859:11:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint16",
+                    "typeString": "uint16"
+                  },
+                  "typeName": {
+                    "id": 916,
+                    "name": "uint16",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "859:6:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint16",
+                      "typeString": "uint16"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "825:46:12"
+            },
+            "returnParameters": {
+              "id": 921,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 920,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 952,
+                  "src": "888:4:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 919,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "888:4:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "887:6:12"
+            },
+            "scope": 953,
+            "src": "809:462:12",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 954,
+        "src": "27:1246:12"
+      }
+    ],
+    "src": "0:1273:12"
+  },
+  "legacyAST": {
+    "absolutePath": "/app/contracts/StructsContract.sol",
+    "exportedSymbols": {
+      "StructsContract": [
+        953
+      ]
+    },
+    "id": 954,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 852,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:25:12"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 953,
+        "linearizedBaseContracts": [
+          953
+        ],
+        "name": "StructsContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "StructsContract.Family",
+            "id": 859,
+            "members": [
+              {
+                "constant": false,
+                "id": 854,
+                "name": "lastName",
+                "nodeType": "VariableDeclaration",
+                "scope": 859,
+                "src": "97:16:12",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bytes32",
+                  "typeString": "bytes32"
+                },
+                "typeName": {
+                  "id": 853,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "97:7:12",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 856,
+                "name": "houseNo",
+                "nodeType": "VariableDeclaration",
+                "scope": 859,
+                "src": "123:13:12",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                },
+                "typeName": {
+                  "id": 855,
+                  "name": "uint8",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "123:5:12",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 858,
+                "name": "age",
+                "nodeType": "VariableDeclaration",
+                "scope": 859,
+                "src": "146:10:12",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint16",
+                  "typeString": "uint16"
+                },
+                "typeName": {
+                  "id": 857,
+                  "name": "uint16",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "146:6:12",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint16",
+                    "typeString": "uint16"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Family",
+            "nodeType": "StructDefinition",
+            "scope": 953,
+            "src": "73:90:12",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 862,
+            "name": "myFamily",
+            "nodeType": "VariableDeclaration",
+            "scope": 953,
+            "src": "228:17:12",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage",
+              "typeString": "struct StructsContract.Family[]"
+            },
+            "typeName": {
+              "baseType": {
+                "contractScope": null,
+                "id": 860,
+                "name": "Family",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 859,
+                "src": "228:6:12",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Family_$859_storage_ptr",
+                  "typeString": "struct StructsContract.Family"
+                }
+              },
+              "id": 861,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "228:8:12",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage_ptr",
+                "typeString": "struct StructsContract.Family[]"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 910,
+              "nodeType": "Block",
+              "src": "450:249:12",
+              "statements": [
+                {
+                  "body": {
+                    "id": 908,
+                    "nodeType": "Block",
+                    "src": "530:163:12",
+                    "statements": [
+                      {
+                        "condition": {
+                          "argumentTypes": null,
+                          "commonType": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          },
+                          "id": 889,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "argumentTypes": null,
+                            "id": 884,
+                            "name": "name",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 864,
+                            "src": "547:4:12",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bytes32",
+                              "typeString": "bytes32"
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "==",
+                          "rightExpression": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "baseExpression": {
+                                "argumentTypes": null,
+                                "id": 885,
+                                "name": "myFamily",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 862,
+                                "src": "555:8:12",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage",
+                                  "typeString": "struct StructsContract.Family storage ref[] storage ref"
+                                }
+                              },
+                              "id": 887,
+                              "indexExpression": {
+                                "argumentTypes": null,
+                                "id": 886,
+                                "name": "i",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 874,
+                                "src": "564:1:12",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint8",
+                                  "typeString": "uint8"
+                                }
+                              },
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "nodeType": "IndexAccess",
+                              "src": "555:11:12",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_Family_$859_storage",
+                                "typeString": "struct StructsContract.Family storage ref"
+                              }
+                            },
+                            "id": 888,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "lastName",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 854,
+                            "src": "555:20:12",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bytes32",
+                              "typeString": "bytes32"
+                            }
+                          },
+                          "src": "547:28:12",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          }
+                        },
+                        "falseBody": null,
+                        "id": 907,
+                        "nodeType": "IfStatement",
+                        "src": "544:139:12",
+                        "trueBody": {
+                          "id": 906,
+                          "nodeType": "Block",
+                          "src": "577:106:12",
+                          "statements": [
+                            {
+                              "expression": {
+                                "argumentTypes": null,
+                                "components": [
+                                  {
+                                    "argumentTypes": null,
+                                    "expression": {
+                                      "argumentTypes": null,
+                                      "baseExpression": {
+                                        "argumentTypes": null,
+                                        "id": 890,
+                                        "name": "myFamily",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 862,
+                                        "src": "603:8:12",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage",
+                                          "typeString": "struct StructsContract.Family storage ref[] storage ref"
+                                        }
+                                      },
+                                      "id": 892,
+                                      "indexExpression": {
+                                        "argumentTypes": null,
+                                        "id": 891,
+                                        "name": "i",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 874,
+                                        "src": "612:1:12",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_uint8",
+                                          "typeString": "uint8"
+                                        }
+                                      },
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "nodeType": "IndexAccess",
+                                      "src": "603:11:12",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_struct$_Family_$859_storage",
+                                        "typeString": "struct StructsContract.Family storage ref"
+                                      }
+                                    },
+                                    "id": 893,
+                                    "isConstant": false,
+                                    "isLValue": true,
+                                    "isPure": false,
+                                    "lValueRequested": false,
+                                    "memberName": "lastName",
+                                    "nodeType": "MemberAccess",
+                                    "referencedDeclaration": 854,
+                                    "src": "603:20:12",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_bytes32",
+                                      "typeString": "bytes32"
+                                    }
+                                  },
+                                  {
+                                    "argumentTypes": null,
+                                    "arguments": [
+                                      {
+                                        "argumentTypes": null,
+                                        "expression": {
+                                          "argumentTypes": null,
+                                          "baseExpression": {
+                                            "argumentTypes": null,
+                                            "id": 895,
+                                            "name": "myFamily",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 862,
+                                            "src": "630:8:12",
+                                            "typeDescriptions": {
+                                              "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage",
+                                              "typeString": "struct StructsContract.Family storage ref[] storage ref"
+                                            }
+                                          },
+                                          "id": 897,
+                                          "indexExpression": {
+                                            "argumentTypes": null,
+                                            "id": 896,
+                                            "name": "i",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 874,
+                                            "src": "639:1:12",
+                                            "typeDescriptions": {
+                                              "typeIdentifier": "t_uint8",
+                                              "typeString": "uint8"
+                                            }
+                                          },
+                                          "isConstant": false,
+                                          "isLValue": true,
+                                          "isPure": false,
+                                          "lValueRequested": false,
+                                          "nodeType": "IndexAccess",
+                                          "src": "630:11:12",
+                                          "typeDescriptions": {
+                                            "typeIdentifier": "t_struct$_Family_$859_storage",
+                                            "typeString": "struct StructsContract.Family storage ref"
+                                          }
+                                        },
+                                        "id": 898,
+                                        "isConstant": false,
+                                        "isLValue": true,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "memberName": "houseNo",
+                                        "nodeType": "MemberAccess",
+                                        "referencedDeclaration": 856,
+                                        "src": "630:19:12",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_uint8",
+                                          "typeString": "uint8"
+                                        }
+                                      }
+                                    ],
+                                    "expression": {
+                                      "argumentTypes": [
+                                        {
+                                          "typeIdentifier": "t_uint8",
+                                          "typeString": "uint8"
+                                        }
+                                      ],
+                                      "id": 894,
+                                      "isConstant": false,
+                                      "isLValue": false,
+                                      "isPure": true,
+                                      "lValueRequested": false,
+                                      "nodeType": "ElementaryTypeNameExpression",
+                                      "src": "624:5:12",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_type$_t_uint8_$",
+                                        "typeString": "type(uint8)"
+                                      },
+                                      "typeName": "uint8"
+                                    },
+                                    "id": 899,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": false,
+                                    "kind": "typeConversion",
+                                    "lValueRequested": false,
+                                    "names": [],
+                                    "nodeType": "FunctionCall",
+                                    "src": "624:26:12",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint8",
+                                      "typeString": "uint8"
+                                    }
+                                  },
+                                  {
+                                    "argumentTypes": null,
+                                    "expression": {
+                                      "argumentTypes": null,
+                                      "baseExpression": {
+                                        "argumentTypes": null,
+                                        "id": 900,
+                                        "name": "myFamily",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 862,
+                                        "src": "652:8:12",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage",
+                                          "typeString": "struct StructsContract.Family storage ref[] storage ref"
+                                        }
+                                      },
+                                      "id": 902,
+                                      "indexExpression": {
+                                        "argumentTypes": null,
+                                        "id": 901,
+                                        "name": "i",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 874,
+                                        "src": "661:1:12",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_uint8",
+                                          "typeString": "uint8"
+                                        }
+                                      },
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "nodeType": "IndexAccess",
+                                      "src": "652:11:12",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_struct$_Family_$859_storage",
+                                        "typeString": "struct StructsContract.Family storage ref"
+                                      }
+                                    },
+                                    "id": 903,
+                                    "isConstant": false,
+                                    "isLValue": true,
+                                    "isPure": false,
+                                    "lValueRequested": false,
+                                    "memberName": "age",
+                                    "nodeType": "MemberAccess",
+                                    "referencedDeclaration": 858,
+                                    "src": "652:15:12",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint16",
+                                      "typeString": "uint16"
+                                    }
+                                  }
+                                ],
+                                "id": 904,
+                                "isConstant": false,
+                                "isInlineArray": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "nodeType": "TupleExpression",
+                                "src": "602:66:12",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_tuple$_t_bytes32_$_t_uint8_$_t_uint16_$",
+                                  "typeString": "tuple(bytes32,uint8,uint16)"
+                                }
+                              },
+                              "functionReturnParameters": 872,
+                              "id": 905,
+                              "nodeType": "Return",
+                              "src": "595:73:12"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 880,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 877,
+                      "name": "i",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 874,
+                      "src": "505:1:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "<",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 878,
+                        "name": "myFamily",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 862,
+                        "src": "509:8:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage",
+                          "typeString": "struct StructsContract.Family storage ref[] storage ref"
+                        }
+                      },
+                      "id": 879,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "length",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "509:15:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "505:19:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 909,
+                  "initializationExpression": {
+                    "assignments": [
+                      874
+                    ],
+                    "declarations": [
+                      {
+                        "constant": false,
+                        "id": 874,
+                        "name": "i",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 909,
+                        "src": "492:7:12",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint8",
+                          "typeString": "uint8"
+                        },
+                        "typeName": {
+                          "id": 873,
+                          "name": "uint8",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "492:5:12",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint8",
+                            "typeString": "uint8"
+                          }
+                        },
+                        "value": null,
+                        "visibility": "internal"
+                      }
+                    ],
+                    "id": 876,
+                    "initialValue": {
+                      "argumentTypes": null,
+                      "hexValue": "30",
+                      "id": 875,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "502:1:12",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_0_by_1",
+                        "typeString": "int_const 0"
+                      },
+                      "value": "0"
+                    },
+                    "nodeType": "VariableDeclarationStatement",
+                    "src": "492:11:12"
+                  },
+                  "loopExpression": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "id": 882,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "UnaryOperation",
+                      "operator": "++",
+                      "prefix": false,
+                      "src": "526:3:12",
+                      "subExpression": {
+                        "argumentTypes": null,
+                        "id": 881,
+                        "name": "i",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 874,
+                        "src": "526:1:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint8",
+                          "typeString": "uint8"
+                        }
+                      },
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "id": 883,
+                    "nodeType": "ExpressionStatement",
+                    "src": "526:3:12"
+                  },
+                  "nodeType": "ForStatement",
+                  "src": "488:205:12"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 911,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getName",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 865,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 864,
+                  "name": "name",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 911,
+                  "src": "391:12:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 863,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "391:7:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "390:14:12"
+            },
+            "returnParameters": {
+              "id": 872,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 867,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 911,
+                  "src": "426:7:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 866,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "426:7:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 869,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 911,
+                  "src": "435:5:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 868,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "435:5:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 871,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 911,
+                  "src": "442:6:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint16",
+                    "typeString": "uint16"
+                  },
+                  "typeName": {
+                    "id": 870,
+                    "name": "uint16",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "442:6:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint16",
+                      "typeString": "uint16"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "425:24:12"
+            },
+            "scope": 953,
+            "src": "374:325:12",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 951,
+              "nodeType": "Block",
+              "src": "894:377:12",
+              "statements": [
+                {
+                  "assignments": [
+                    923
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 923,
+                      "name": "newFamily",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 951,
+                      "src": "956:23:12",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Family_$859_memory_ptr",
+                        "typeString": "struct StructsContract.Family"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 922,
+                        "name": "Family",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 859,
+                        "src": "956:6:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Family_$859_storage_ptr",
+                          "typeString": "struct StructsContract.Family"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 924,
+                  "initialValue": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "956:23:12"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 929,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 925,
+                        "name": "newFamily",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 923,
+                        "src": "1050:9:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Family_$859_memory_ptr",
+                          "typeString": "struct StructsContract.Family memory"
+                        }
+                      },
+                      "id": 927,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "lastName",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 854,
+                      "src": "1050:18:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 928,
+                      "name": "_lastName",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 913,
+                      "src": "1071:9:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      }
+                    },
+                    "src": "1050:30:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "id": 930,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1050:30:12"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 935,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 931,
+                        "name": "newFamily",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 923,
+                        "src": "1090:9:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Family_$859_memory_ptr",
+                          "typeString": "struct StructsContract.Family memory"
+                        }
+                      },
+                      "id": 933,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "houseNo",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 856,
+                      "src": "1090:17:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 934,
+                      "name": "_value",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 915,
+                      "src": "1110:6:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "1090:26:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "id": 936,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1090:26:12"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 941,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 937,
+                        "name": "newFamily",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 923,
+                        "src": "1126:9:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Family_$859_memory_ptr",
+                          "typeString": "struct StructsContract.Family memory"
+                        }
+                      },
+                      "id": 939,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "age",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 858,
+                      "src": "1126:13:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint16",
+                        "typeString": "uint16"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 940,
+                      "name": "_age",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 917,
+                      "src": "1142:4:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint16",
+                        "typeString": "uint16"
+                      }
+                    },
+                    "src": "1126:20:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint16",
+                      "typeString": "uint16"
+                    }
+                  },
+                  "id": 942,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1126:20:12"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 946,
+                        "name": "newFamily",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 923,
+                        "src": "1233:9:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Family_$859_memory_ptr",
+                          "typeString": "struct StructsContract.Family memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_struct$_Family_$859_memory_ptr",
+                          "typeString": "struct StructsContract.Family memory"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 943,
+                        "name": "myFamily",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 862,
+                        "src": "1219:8:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_struct$_Family_$859_storage_$dyn_storage",
+                          "typeString": "struct StructsContract.Family storage ref[] storage ref"
+                        }
+                      },
+                      "id": 945,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1219:13:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_struct$_Family_$859_storage_$returns$_t_uint256_$",
+                        "typeString": "function (struct StructsContract.Family storage ref) returns (uint256)"
+                      }
+                    },
+                    "id": 947,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1219:24:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 948,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1219:24:12"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "74727565",
+                    "id": 949,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "bool",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "1260:4:12",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    },
+                    "value": "true"
+                  },
+                  "functionReturnParameters": 921,
+                  "id": 950,
+                  "nodeType": "Return",
+                  "src": "1253:11:12"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 952,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "addName",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 918,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 913,
+                  "name": "_lastName",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 952,
+                  "src": "826:17:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 912,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "826:7:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 915,
+                  "name": "_value",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 952,
+                  "src": "845:12:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 914,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "845:5:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 917,
+                  "name": "_age",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 952,
+                  "src": "859:11:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint16",
+                    "typeString": "uint16"
+                  },
+                  "typeName": {
+                    "id": 916,
+                    "name": "uint16",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "859:6:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint16",
+                      "typeString": "uint16"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "825:46:12"
+            },
+            "returnParameters": {
+              "id": 921,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 920,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 952,
+                  "src": "888:4:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 919,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "888:4:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "887:6:12"
+            },
+            "scope": 953,
+            "src": "809:462:12",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 954,
+        "src": "27:1246:12"
+      }
+    ],
+    "src": "0:1273:12"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.12+commit.7709ece9.Emscripten.clang"
+  },
+  "networks": {
+    "4447": {
+      "events": {},
+      "links": {},
+      "address": "0xEf2778D36172618f9FB4Fb663d530f1A804ed65C",
+      "transactionHash": "0x8dd481fbe4ce605578da7d777f25e7445c976a7ab242cb3f0e48e3d970c323f9"
+    },
+    "1576002880104": {
+      "events": {},
+      "links": {},
+      "address": "0xc2bf210fAe2780a3777a25e4439d9A41d9Fe66EB",
+      "transactionHash": "0xed372428443dbda59105394afa23f6fe54e53231b378b556248434d7895876ed"
+    }
+  },
+  "schemaVersion": "3.0.19",
+  "updatedAt": "2019-12-10T18:37:27.227Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

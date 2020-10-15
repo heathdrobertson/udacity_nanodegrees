@@ -1,0 +1,93 @@
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 10402019 (0x9eb8e3)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xa5954dab0662f1cdbb7d96fd4ee4e66872a4348c105ed10d28f36c0fade2679f
+   > Blocks: 0            Seconds: 8
+   > contract address:    0x4d64Ae6B4E931078fc6cF27Ea25CAEA6030A18A0
+   > block number:        6400817
+   > block timestamp:     1588167684
+   > account:             0x55466Fc7CD33E6791d7E2246fE7496783cc6ED4f
+   > balance:             17.745335878
+   > gas used:            225237 (0x36fd5)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00450474 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 6400818)
+   > confirmation number: 2 (block: 6400819)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00450474 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'SquareVerifier'
+   --------------------------
+   > transaction hash:    0x459847b300170ad4946b8ae5fe10bdc1a147cae3691a0efdef50c713e6308194
+   > Blocks: 0            Seconds: 12
+   > contract address:    0xC6035BEEeB8e017626b9FDD0630F9d9655430A86
+   > block number:        6400821
+   > block timestamp:     1588167744
+   > account:             0x55466Fc7CD33E6791d7E2246fE7496783cc6ED4f
+   > balance:             17.724639518
+   > gas used:            992455 (0xf24c7)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0198491 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 6400822)
+   > confirmation number: 2 (block: 6400823)
+
+   Deploying 'SolnSquareVerifier'
+   ------------------------------
+   > transaction hash:    0xa6a50ddab1ce9b8cd634c81815eede271466e5490b7280bf969025286b0223e8
+   > Blocks: 0            Seconds: 8
+   > contract address:    0xe4c5ED051746275Fd099276866CEDB292AeeEB78
+   > block number:        6400824
+   > block timestamp:     1588167789
+   > account:             0x55466Fc7CD33E6791d7E2246fE7496783cc6ED4f
+   > balance:             17.651351178
+   > gas used:            3664417 (0x37ea21)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07328834 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 6400824)
+   > confirmation number: 2 (block: 6400825)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.09313744 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.09764218 ETH
+
+
+Minting Houses
+==============
+1. Minted House 1. Transaction: 0x0015d3cc13895d9c3315eda1bf6bde7cfe744168d1383740b4f5419b45d1a638
+2. Minted House 2. Transaction: 0xad665958f4eeda62d394ed816f3babf8565fe9165509ec2a435ce219ca363e52
+

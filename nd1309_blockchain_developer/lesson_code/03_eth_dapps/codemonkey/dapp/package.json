@@ -1,0 +1,31 @@
+{
+  "name": "codemonkey_dapp",
+  "version": "1.0.0",
+  "description": "This is section 8, of ND1309 getting started with web3.js.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.17.1",
+    "ganache-cli": "^6.7.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "request-promise": "^4.2.5",
+    "truffle": "^5.1.6",
+    "web3": "^1.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ethereum",
+    "dapp"
+  ],
+  "author": "Heath Robertson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heathdrobertson"
+  }
+}

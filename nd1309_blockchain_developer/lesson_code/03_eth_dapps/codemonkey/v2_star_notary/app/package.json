@@ -1,0 +1,35 @@
+{
+  "name": "cryptostar_frontend",
+  "version": "3.0.0",
+  "description": "Udacity nd1309 ",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --watch"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.0"
+  },
+  "dependencies": {
+    "web3": "^1.2.4"
+  },
+  "main": "webpack.config.js",
+  "author": "Heath Robertson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heathdrobertson/crypotstar.git"
+  },
+  "keywords": [
+    "ethereum",
+    "dapp",
+    "rinkeby"
+  ],
+  "bugs": {
+    "url": "https://github.com/heathdrobertson/crypotstar/issues"
+  },
+  "homepage": "https://github.com/heathdrobertson/crypotstar#readme"
+}
